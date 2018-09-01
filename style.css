@@ -10,9 +10,9 @@ body {
 		text-align: center;
 		width: 80vw;
 		/* vertical align */
-		top: 50%; 
+		top: 50vh; 
 		position: absolute; 
-		transform: translateY(-50%);
+		transform: translateY(-30vh);
 		/* vertical align */
 		font-size: 21px;
 		background: linear-gradient(
