@@ -1,0 +1,66 @@
+
+html {
+	margin: 0;
+	position: relative;
+	height: 100vh;
+}
+
+body {
+		margin: 0 10vw;
+		text-align: center;
+		width: 80vw;
+		/* vertical align */
+		top: 50%; 
+		position: absolute; 
+		transform: translateY(-50%);
+		/* vertical align */
+		font-size: 21px;
+		background: linear-gradient(
+			 -35deg, 
+			 rgba(33, 37, 41,0.04) 35%,
+			 rgba(33, 37, 41,0.04) 35%,
+			 #fff 36%);
+}
+
+.display-1 {
+	margin: 5vh auto;
+	font-size: 4.2em;
+}
+
+.lead {
+	margin: 5vh auto;
+	font-size: 1.1em;
+}
+
+span {
+	color: rgb(96, 69, 122);
+}
+
+input, #exampleInputEmail1 {
+	text-align: center;
+	color: purple;
+}
+
+#exampleInputEmail1:focus {
+  box-shadow: 0 1px 1px rgba(128, 93, 161,0.75) inset, 0 0 10px rgba(128, 93, 161,0.75);
+  outline: 0 none;
+  border: 1px solid rgba(128, 93, 161,0.25);
+}
+
+.btn {
+	background-color: rgb(128, 93, 161);
+	border: 1px solid rgb(128, 93, 161);
+	border-radius: 10% 40%;
+	transition: all 0.7s ease-in-out;
+	margin: 30px;
+	width: 75px;
+	height: 45px;
+	font-size: 0.85em;
+}
+
+.btn:hover {
+	transform:  rotate(360deg);
+	background-color: white;
+	color: rgb(96, 69, 122);
+	border: 1px solid rgb(96, 69, 122);
+}
