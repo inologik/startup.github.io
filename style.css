@@ -51,7 +51,7 @@ input, #exampleInputEmail1 {
 	background-color: rgb(128, 93, 161);
 	border: 1px solid rgb(128, 93, 161);
 	border-radius: 10% 40%;
-	transition: all 0.7s ease-in-out;
+	transition: transform 0.7s ease-in-out;
 	margin: 30px;
 	width: 75px;
 	height: 45px;
